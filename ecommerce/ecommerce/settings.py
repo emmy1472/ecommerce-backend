@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$h*ndx1_!ry7tfdqfa4tb*135r0z7fhi^lnf1yj#+@lu3t2_+$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://emmy1472.github.io/']
+ALLOWED_HOSTS = ['https://emmy1472.github.io/', '127.0.0.1',  '127.0.0.1:8000', "https://6db7-197-253-32-226.ngrok-free.app",]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'users',
     'shipping',
     'rest_framework',
+    'corsheaders',
     
 ]
 
@@ -61,16 +62,20 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',  # Add this line
     'django.middleware.common.CommonMiddleware',
 ]
 
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://emmy1472.github.io/",
+    "https://emmy1472.github.io",
+    "https://6db7-197-253-32-226.ngrok-free.app",
     "http://localhost:3000",  # React/Fronupdatetend URL
 ]
+
+CORS_ALLOW_ALL_ORIGINS = True
+
 
 ROOT_URLCONF = 'ecommerce.urls'
 
