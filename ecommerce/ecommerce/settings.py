@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-$h*ndx1_!ry7tfdqfa4tb*135r0z7fhi^lnf1yj#+@lu3t2_+$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://emmy1472.github.io/ecommerce']
+ALLOWED_HOSTS = ['https://emmy1472.github.io/']
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
