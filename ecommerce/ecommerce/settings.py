@@ -68,6 +68,7 @@ MIDDLEWARE = [
 
 
 CORS_ALLOWED_ORIGINS = [
+    "https://emmy1472.github.io/ecommerce",
     "http://localhost:3000",  # React/Frontend URL
 ]
 
