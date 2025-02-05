@@ -72,8 +72,8 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "https://emmy1472.github.io",
     "https://a0ce-197-253-32-226.ngrok-free.app",
-    "http://localhost:8000",
-    "http://localhost:3000",  # React/Fronupdatetend URL
+    "https://localhost:8000",
+    "https://localhost:3000",  # React/Fronupdatetend URL
 ]
 
 CSRF_TRUSTED_ORIGINS = [
