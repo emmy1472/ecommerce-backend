@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-$h*ndx1_!ry7tfdqfa4tb*135r0z7fhi^lnf1yj#+@lu3t2_+$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['emmy1472.github.io', '127.0.0.1',   "a0ce-197-253-32-226.ngrok-free.app", 'localhost']
+ALLOWED_HOSTS = ['emmy1472.github.io', '127.0.0.1',   "355d-197-253-32-226.ngrok-free.app", 'localhost']
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -71,14 +71,14 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "https://emmy1472.github.io",
-    "https://a0ce-197-253-32-226.ngrok-free.app",
+    "https://355d-197-253-32-226.ngrok-free.app",
     
     "https://localhost:3000",  # React/Fronupdatetend URL
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://emmy1472.github.io",
-    "https://a0ce-197-253-32-226.ngrok-free.app",
+    "https://355d-197-253-32-226.ngrok-free.app",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
