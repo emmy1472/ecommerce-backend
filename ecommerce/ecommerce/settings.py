@@ -75,6 +75,12 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # React/Fronupdatetend URL
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://emmy1472.github.io",
+    "https://a0ce-197-253-32-226.ngrok-free.app",
+]
+
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_ALL_ORIGINS = True
 
 
