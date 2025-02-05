@@ -71,6 +71,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "https://emmy1472.github.io",
     "https://6db7-197-253-32-226.ngrok-free.app",
+    "http://localhost:8000",
     "http://localhost:3000",  # React/Fronupdatetend URL
 ]
 
